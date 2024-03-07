@@ -1,0 +1,12 @@
+#include<stdio.h>  
+#include<string.h> 
+int main() 
+{ 
+@@ -32,8 +31,7 @@ while(ch==1);
+printf("Directory name is:%s\n",mdname); 
+printf("Files names are:"); 
+for(i=0;i<j;i++) 
+printf("\n%s",fname[i]); 
+getch(); 
+printf("\n%s",fname[i]);  
+}
