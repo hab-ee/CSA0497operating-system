@@ -1,0 +1,19 @@
+@@ -18,9 +18,7 @@ int main() {
+        scanf("%d", &queue[i]);
+    }
+
+    direction = 1; // 1 for forward direction, 0 for backward direction
+
+    // Sort the queue in ascending order
+    direction = 1;
+    for (i = 0; i < queueSize - 1; i++) {
+        for (j = 0; j < queueSize - i - 1; j++) {
+            if (queue[j] > queue[j + 1]) {
+@@ -30,8 +28,6 @@ int main() {
+            }
+        }
+    }
+
+    // C-SCAN Algorithm
+    int nextStop = currentHead;
+    int queueIndex = 0;
